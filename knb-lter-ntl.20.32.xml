@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-ntl.20.32"
+  system="https://pasta.edirepository.org"
+  xmlns:ds="eml://ecoinformatics.org/dataset-2.1.0"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.0"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+  <access authSystem="https://pasta.edirepository.org/authentication"
+    order="allowFirst" scope="document" system="https://pasta.edirepository.org">
+    <allow>
+      <principal>uid=NTL,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier system="https://doi.org">doi:10.6073/pasta/e3ff85971d817e9898bb8a83fb4c3a8b</alternateIdentifier>
+    <shortName>NTLME04</shortName>
+    <title>Madison Wisconsin Daily Meteorological Data 1869 - current</title>
+    <creator>
+      <individualName>
+        <givenName>Lyle</givenName>
+        <surName>Anderson</surName>
+      </individualName>
+      <address>
+        <city>Madison</city>
+        <administrativeArea>WI</administrativeArea>
+        <postalCode>53706</postalCode>
+        <country>US</country>
+      </address>
+      <phone phonetype="voice">(608) 263-2374</phone>
+      <electronicMailAddress>ljanders@wisc.edu</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Dale</givenName>
+        <surName>Robertson</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>8505 Research Way</deliveryPoint>
+        <city>Middleton</city>
+        <administrativeArea>WI</administrativeArea>
+        <postalCode>53562</postalCode>
+        <country>US</country>
+      </address>
+      <phone phonetype="voice">(608) 821-3867</phone>
+      <electronicMailAddress>dzrobert@usgs.gov</electronicMailAddress>
+      <onlineUrl>http://wi.water.usgs.gov/professional-pages/robertson.html</onlineUrl>
+    </creator>
+    <metadataProvider>
+      <individualName>
+        <givenName>NTL</givenName>
+        <surName>Information Manager</surName>
+      </individualName>
+      <organizationName>University of Wisconsin</organizationName>
+      <address>
+        <deliveryPoint>680 North Park Street</deliveryPoint>
+        <city>Madison</city>
+        <administrativeArea>WI</administrativeArea>
+        <postalCode>53706</postalCode>
+        <country>US</country>
+      </address>
+      <electronicMailAddress>ntl.infomgr@gmail.com</electronicMailAddress>
+    </metadataProvider>
+    <pubDate>2010-09-20</pubDate>
+    <language>English</language>
+    <abstract>
+      <section>
+        <para>
+          <literalLayout>Daily air temperature, precipitation and snow depth data for Madison from 1869. For a full description of data prior to 1987 see Robertson, 1989 (Ph.D. Thesis). Raw data (in English units) prior to 1977 were assembled by Douglas Clark - Wisconsin State Climatologist. Data were converted to metric units and adjusted for temporal biases by Dale M. Robertson. Adjusted data represent the BEST estimated daily data and may be raw data. Daily temperature data prior to 1884 were estimated from 3 times per day sampling and biases are expected and should not be comparable with data after that time. For adjustments applied to various parameters see Robertson, 1989 Ph.D. Thesis UW-Madison. Douglas Clark had assembled and adjusted 1948 to 1977 data for his own research earlier. Data from 1989 to 1995 obtained from CD's at the Wis. State Climatologists Office. Air Temp adjusted to data at Truax Field. Data collected at Bascom Hall, 1-1-1869 to 9-30-1878. Data collected at North Hall, 10-1-1904 to 12-31-1947. Data collected at Browns Block, 10-1-1878 to 4-31-1883. Data collected at Truax Field (Admin BLDG), 1-1-1948 to 12-31-195. Data collected at North Hall, 5-1-1883 to 7-31-1883. Data collected at Truax Field (Center of Field), 1-1-1960 to Present. Data collected at Washburn observatory, 8-1-1883 to 9-30-1904. Wind data collected at Truax from 1-1-1947 to Present. Much of the data after 1990 were obtained in digital form from Ed Hopkins, UW-Meteorology Sampling Frequency: daily values Number of sites: 1</literalLayout>
+        </para>
+      </section>
+    </abstract>
+    <keywordSet>
+      <keyword>meteorological data</keyword>
+      <keyword>North Temperate Lakes - LTER</keyword>
+      <keyword>NTL LTER</keyword>
+      <keywordThesaurus>NTL Keywords</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>Reference Datasets</keyword>
+      <keyword>physical (all)</keyword>
+      <keyword>meteorlogical</keyword>
+      <keywordThesaurus>NTL Themes</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>meteorology</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <section>
+        <title>Data Policies</title>
+        <para>
+          <literalLayout>This information is released to the public domain under the Creative Commons license CC-BY 4.0 (see: https://creativecommons.org/licenses/by/4.0/). It may be distributed, remixed, and built upon. You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. The consumer of these data ("Data User" herein) should realize that these data may be actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the authors of these data if any questions about methodology or results occur. Where appropriate, the Data User is encouraged to consider collaboration or co-authorship with the authors. The Data User should realize that misinterpretation of data may occur if used out of context of the original study. While substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed. All data are made available "as is." The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data. Thank you.</literalLayout>
+        </para>
+      </section>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">https://lter.limnology.wisc.edu/dataset/madison-wisconsin-daily-meteorological-data-1869-current</url>
+      </online>
+    </distribution>
+    <coverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1869-01-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2019-12-31</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+      <description>
+        <para>
+          <literalLayout>ongoing</literalLayout>
+        </para>
+      </description>
+    </maintenance>
+    <contact>
+      <individualName>
+        <givenName>NTL</givenName>
+        <surName>Information Manager</surName>
+      </individualName>
+      <organizationName>University of Wisconsin</organizationName>
+      <address>
+        <deliveryPoint>680 North Park Street</deliveryPoint>
+        <city>Madison</city>
+        <administrativeArea>WI</administrativeArea>
+        <postalCode>53706</postalCode>
+        <country>US</country>
+      </address>
+      <electronicMailAddress>ntl.infomgr@gmail.com</electronicMailAddress>
+    </contact>
+    <pubPlace>North Temperate Lakes</pubPlace>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <para>
+              <literalLayout>For a full description of data prior to 1987 see Robertson, 1989 (Ph.D. Thesis). Raw data (in English units) prior to 1977 were assembled by Douglas Clark - Wisconsin State Climatologist. Data were converted to metric units and adjusted for temporal biases by Dale M. Robertson. Adjusted data represent the BEST estimated daily data and may be raw data. Daily temperature data prior to 1884 were estimated from 3 times per day sampling and biases are expected and should not be comparable with data after that time. For adjustments applied to various parameters see Robertson, 1989 Ph.D. Thesis UW-Madison. Douglas Clark had assembled and adjusted 1948 to 1977 data for his own research earlier. Data from 1989 to 1995 obtained from CD's at the Wis. State Climatologists Office. Air Temp adjusted to data at Truax Field. Data collected at Bascom Hall, 1-1-1869 to 9-30-1878. Data collected at North Hall, 10-1-1904 to 12-31-1947. Data collected at Browns Block, 10-1-1878 to 4-31-1883. Data collected at Truax Field (Admin BLDG), 1-1-1948 to 12-31-195. Data collected at North Hall, 5-1-1883 to 7-31-1883. Data collected at Truax Field (Center of Field), 1-1-1960 to Present. Data collected at Washburn observatory, 8-1-1883 to 9-30-1904. Wind data collected at Truax from 1-1-1947 to Present. Much of the data after 1990 were obtained in digital form from Ed Hopkins, UW-Meteorology Sampling Frequency: daily values Number of sites: 1</literalLayout>
+            </para>
+          </section>
+        </description>
+      </methodStep>
+    </methods>
+    <dataTable>
+      <entityName>Madison Daily Meteorological Data</entityName>
+      <entityDescription>Madison Daily Meteorological Data</entityDescription>
+      <physical>
+        <objectName>ntl20_v6.csv</objectName>
+        <size>4016188</size>
+        <authentication method="MD5">b6f14280f07c66d50e973ab81f65a91d</authentication>
+        <authentication method="SHA-1">a769436411c025eb76cb4d03b865d92a46255191</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-ntl/20/32/3c7ddd692d3ac8e90bf2954a16b39e89</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>sampledate</attributeName>
+          <attributeLabel>sample date</attributeLabel>
+          <attributeDefinition>sample date</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>yyyy-MM-dd</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>year4</attributeName>
+          <attributeLabel>year</attributeLabel>
+          <attributeDefinition>year</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>month</attributeName>
+          <attributeLabel>month of the year</attributeLabel>
+          <attributeDefinition>month of the year</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nominalMonth</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>daynum</attributeName>
+          <attributeLabel>day of year</attributeLabel>
+          <attributeDefinition>day of year</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalDay</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">366</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>max_air_temp_adjusted</attributeName>
+          <attributeLabel>daily max air temp (adjusted)</attributeLabel>
+          <attributeDefinition>daily maximum air temperature (adjusted)</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-50</minimum>
+                  <maximum exclusive="false">50</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>max_air_temp_raw</attributeName>
+          <attributeLabel>daily max air temp (raw)</attributeLabel>
+          <attributeDefinition>daily maximum air temperature (raw)</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-50</minimum>
+                  <maximum exclusive="false">50</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>min_air_temp_adjusted</attributeName>
+          <attributeLabel>daily min air temp (adjusted)</attributeLabel>
+          <attributeDefinition>daily minimum air temperature (adjusted)</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-50</minimum>
+                  <maximum exclusive="false">50</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>min_air_temp_raw</attributeName>
+          <attributeLabel>daily min air temp (raw)</attributeLabel>
+          <attributeDefinition>daily minimum air temperature (raw)</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-50</minimum>
+                  <maximum exclusive="false">50</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>ave_air_temp_adjusted</attributeName>
+          <attributeLabel>daily mean air temp (adjusted)</attributeLabel>
+          <attributeDefinition>daily mean air temperature (adjusted)</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-50</minimum>
+                  <maximum exclusive="false">50</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>ave_air_temp_raw</attributeName>
+          <attributeLabel>daily mean air temp (raw)</attributeLabel>
+          <attributeDefinition>daily mean air temperature (raw)</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-50</minimum>
+                  <maximum exclusive="false">50</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>range_air_temp_adjusted</attributeName>
+          <attributeLabel>daily range airtemp (adjusted)</attributeLabel>
+          <attributeDefinition>daily range air temperature (adjusted)</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-50</minimum>
+                  <maximum exclusive="false">50</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>precip_raw_mm</attributeName>
+          <attributeLabel>precipitation total</attributeLabel>
+          <attributeDefinition>precipitation total</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">150</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>snow_raw_cm</attributeName>
+          <attributeLabel>snowfall total</attributeLabel>
+          <attributeDefinition>snowfall total</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>snow_depth_cm</attributeName>
+          <attributeLabel>current snow depth</attributeLabel>
+          <attributeDefinition>current snow depth</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">250</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>data_status</attributeName>
+          <attributeLabel>data status</attributeLabel>
+          <attributeDefinition>data status</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>F</code>
+                    <definition>Final</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>P</code>
+                    <definition>Preliminary</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>55151</numberOfRecords>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <stmml:unitList xmlns="http://www.xml-cml.org/schema/stmml"
+        xmlns:sch="http://www.ascc.net/xml/schematron"
+        xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xml-cml.org/schema/stmml-1.1 http://nis.lternet.edu/schemas/EML/eml-2.1.0/stmml.xsd">
+        <stmml:unit abbreviation="" id="nominalMonth"
+          name="nominalMonth" unitType="">
+          <stmml:description/>
+        </stmml:unit>
+      </stmml:unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

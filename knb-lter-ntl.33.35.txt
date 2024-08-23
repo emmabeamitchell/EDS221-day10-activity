@@ -1,0 +1,258 @@
+
+  
+    
+      uid=NTL,o=LTER,dc=ecoinformatics,dc=org
+      all
+    
+    
+      public
+      read
+    
+  
+  
+    doi:10.6073/pasta/ab31f2489ee436beb73fc8f1d0213d97North Temperate Lakes LTER: Ice Duration - Madison Lakes Area 1853 - current
+    
+      John Magnuson
+      University of Wisconsin
+      john.magnuson@wisc.edu
+    
+    
+      Stephen Carpenter
+      University of Wisconsin
+      steve.carpenter@wisc.edu
+    
+    
+      Emily Stanley
+      University of Wisconsin
+      ehstanley@wisc.edu
+    
+    2021-02-04
+    
+      Data include dates of freeze-up and thaw and ice duration of three primary lakes in the Madison area (Lake Mendota, Lake Monona, and Lake Wingra). Data are obtained from the State Climatologist. For Monona and Wingra, the freeze date (ice on) is defined as the first date on which the water body is observed to be completely ice covered, and the breakup date (ice off) is the date of the last breakup observed before the open water phase. Ice duration is the number of days that a water body is completely covered with ice and excludes any period during which the lake thawed in mid-winter before freezing again. For Mendota, duration is calculated in the same manner, but ice on and ice off dates are assigned as follows: The lake is deemed frozen if it has solid ice from Picnic Point to Maple Bluff and total ice cover is greater than 50 %. The lake is deemed open if it is ice-free from Picnic Point to Maple Bluff and total ice cover is less than 50%. Sampling Frequency: annually Number of sites: 3
+
+    
+    
+      This information is released under the Creative Commons license - Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/). The consumer of these data ("Data User" herein) is required to cite it appropriately in any publication that results from its use. The Data User should realize that these data may be actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the authors of these data if any questions about methodology or results occur. Where appropriate, the Data User is encouraged to consider collaboration or co-authorship with the authors. The Data User should realize that misinterpretation of data may occur if used out of context of the original study. While substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed. All data are made available "as is." The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data. Thank you.
+
+    
+    
+      
+        Lake Mendota
+        
+          -89.4837
+          -89.3673
+          43.146
+          43.0766
+        
+      
+      
+        Lake Monona
+        
+          -89.4001
+          -89.3251
+          43.0905
+          43.0451
+        
+      
+      
+        Lake Wingra
+        
+          -89.4317
+          -89.4046
+          43.0581
+          43.0487
+        
+      
+      
+        
+          
+            1853-04-05
+          
+          
+            2020-03-23
+          
+        
+      
+    
+    
+      ongoing
+    
+    
+      NTL Information Manager
+      University of Wisconsin
+      ntl.infomgr@gmail.com
+    
+    Environmental Data Initiativeinfo@environmentaldatainitiative.orghttps://environmentaldatainitiative.orgEnvironmental Data Initiative
+      
+        
+          Currently the official freeze and opening days are determined by the State Climatologist. Criteria are outlined in the abstract.
+
+        
+      
+    
+    
+      North Temperate Lakes LTER - Ice Duration - Madison Lakes Area
+      North Temperate Lakes LTER: Ice Duration - Madison Lakes Area
+      
+        ntl33_v7.csv
+        28021
+        4d634a70ab6eaf6c23d3d7f47b5f3e41
+        
+          
+            1
+            \r\n
+            column
+            
+              ,
+              "
+            
+          
+        
+        
+          
+            https://pasta.lternet.edu/package/data/eml/knb-lter-ntl/33/35/f5bc02452cafcd461c49bd7429d8b40c
+          
+        
+      
+      
+        
+          lakeid
+          lake name abbreviation
+          string
+          
+            
+              
+                
+                  
+                    ME
+                    Lake Mendota
+                  
+                  
+                    MO
+                    Lake Monona
+                  
+                  
+                    WI
+                    Lake Wingra
+                  
+                
+              
+            
+          
+        
+        
+          season
+          winter season
+          string
+          
+            
+              
+                
+                  winter season
+                
+              
+            
+          
+        
+        
+          iceon
+          date of freeze-up in year and day number format
+          float
+          
+            
+              
+                nominalDay
+              
+              
+                natural
+                
+                  18786
+                  2019350
+                
+              
+            
+          
+        
+        
+          ice_on
+          date of freeze-up in date format
+          date
+          
+            
+              mm/dd/yyyy
+              
+            
+          
+        
+        
+          iceoff
+          date of thaw in year and day number format
+          float
+          
+            
+              
+                nominalDay
+              
+              
+                natural
+                
+                  185285
+                  2014102
+                
+              
+            
+          
+        
+        
+          ice_off
+          date of thaw in date format
+          date
+          
+            
+              mm/dd/yyyy
+              
+            
+          
+        
+        
+          ice_duration
+          number of days frozen
+          float
+          
+            
+              
+                number
+              
+              
+                integer
+                
+                  -999
+                  164
+                
+              
+            
+          
+        
+        
+          year4
+          year
+          float
+          
+            
+              
+                nominalYear
+              
+              
+                natural
+                
+                  1851
+                  2019
+                
+              
+            
+          
+        
+      
+      431
+    
+  

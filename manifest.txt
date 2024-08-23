@@ -1,0 +1,5 @@
+Manifest file for knb-lter-ntl.20.32.zip created on Fri Aug 23 21:08:42 UTC 2024
+ntl20_v6.csv (4016188 bytes)
+knb-lter-ntl.20.32.xml (21677 bytes)
+knb-lter-ntl.20.32.txt (5051 bytes)
+knb-lter-ntl.20.32.report.xml (33801 bytes)

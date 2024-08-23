@@ -1,0 +1,255 @@
+Dataset title:  Madison Wisconsin Daily Meteorological Data 1869 - current
+
+Dataset ID:  doi:10.6073/pasta/e3ff85971d817e9898bb8a83fb4c3a8b
+Dataset Creator
+
+	Name:		Lyle Anderson
+	
+	Address:
+			Madison, WI 53706  US
+	
+	Phone:		(608) 263-2374
+	Email:		ljanders@wisc.edu
+
+	Name:		Dale Robertson
+	
+	Address:
+			8505 Research Way
+			Middleton, WI 53562  US
+	
+	Phone:		(608) 821-3867
+	Email:		dzrobert@usgs.gov
+	URL:		http://wi.water.usgs.gov/professional-pages/robertson.html
+
+
+Metadata Provider
+
+	Name:		NTL Information Manager
+	Organization:	University of Wisconsin
+	
+	Address:
+			680 North Park Street
+			Madison, WI 53706  US
+	
+	Email:		ntl.infomgr@gmail.com
+
+
+Dataset Abstract
+
+
+
+Dataset Keywords
+
+	meteorological data
+	North Temperate Lakes - LTER
+	NTL LTER
+	Reference Datasets
+	physical (all)
+	meteorlogical
+	meteorology
+
+
+Intellectual Rights
+
+
+
+Distribution
+
+	Online distribution:  https://lter.limnology.wisc.edu/dataset/madison-wisconsin-daily-meteorological-data-1869-current
+
+
+Temporal Coverage
+
+	Start Date:  1869-01-01
+	End Date:  2019-12-31
+
+Maintenance
+
+	
+          ongoing
+        
+
+
+Dataset Contact
+
+
+
+Methods
+
+
+
+	Method Step 
+
+		Description 
+
+
+
+Data Table
+
+	Entity Name:  Madison Daily Meteorological Data
+	Entity Description:  Madison Daily Meteorological Data
+	Object Name:  ntl20_v6.csv
+
+
+
+Data Format
+
+	Number of Header Lines:  1
+	Attribute Orientation:  column
+	Field Delimiter:  ,
+	Number of Records:  55151
+
+
+
+Attributes
+
+	Attribute Name:  sampledate
+	Attribute Label:  sample date
+	Attribute Definition:  sample date
+	Storage Type:  date
+	Measurement Scale: 
+	Missing Value Code: 
+
+
+	Attribute Name:  year4
+	Attribute Label:  year
+	Attribute Definition:  year
+	Storage Type:  
+	Measurement Scale: 
+		Units:  nominalYear
+		Precision:  1
+		Number Type:  real
+	Missing Value Code: 
+
+
+	Attribute Name:  month
+	Attribute Label:  month of the year
+	Attribute Definition:  month of the year
+	Storage Type:  
+	Measurement Scale: 
+		Units:		nominalMonth
+		Number Type:  real
+	Missing Value Code: 
+
+
+	Attribute Name:  daynum
+	Attribute Label:  day of year
+	Attribute Definition:  day of year
+	Storage Type:  
+	Measurement Scale: 
+		Units:  nominalDay
+		Precision:  1
+		Number Type:  real
+	Missing Value Code: 
+
+
+	Attribute Name:  max_air_temp_adjusted
+	Attribute Label:  daily max air temp (adjusted)
+	Attribute Definition:  daily maximum air temperature (adjusted)
+	Storage Type:  
+	Measurement Scale: 
+		Units:  celsius
+		Number Type:  real
+	Missing Value Code: 
+
+
+	Attribute Name:  max_air_temp_raw
+	Attribute Label:  daily max air temp (raw)
+	Attribute Definition:  daily maximum air temperature (raw)
+	Storage Type:  
+	Measurement Scale: 
+		Units:  celsius
+		Number Type:  real
+	Missing Value Code: 
+
+
+	Attribute Name:  min_air_temp_adjusted
+	Attribute Label:  daily min air temp (adjusted)
+	Attribute Definition:  daily minimum air temperature (adjusted)
+	Storage Type:  
+	Measurement Scale: 
+		Units:  celsius
+		Number Type:  real
+	Missing Value Code: 
+
+
+	Attribute Name:  min_air_temp_raw
+	Attribute Label:  daily min air temp (raw)
+	Attribute Definition:  daily minimum air temperature (raw)
+	Storage Type:  
+	Measurement Scale: 
+		Units:  celsius
+		Number Type:  real
+	Missing Value Code: 
+
+
+	Attribute Name:  ave_air_temp_adjusted
+	Attribute Label:  daily mean air temp (adjusted)
+	Attribute Definition:  daily mean air temperature (adjusted)
+	Storage Type:  
+	Measurement Scale: 
+		Units:  celsius
+		Number Type:  real
+	Missing Value Code: 
+
+
+	Attribute Name:  ave_air_temp_raw
+	Attribute Label:  daily mean air temp (raw)
+	Attribute Definition:  daily mean air temperature (raw)
+	Storage Type:  
+	Measurement Scale: 
+		Units:  celsius
+		Number Type:  real
+	Missing Value Code: 
+
+
+	Attribute Name:  range_air_temp_adjusted
+	Attribute Label:  daily range airtemp (adjusted)
+	Attribute Definition:  daily range air temperature (adjusted)
+	Storage Type:  
+	Measurement Scale: 
+		Units:  celsius
+		Number Type:  real
+	Missing Value Code: 
+
+
+	Attribute Name:  precip_raw_mm
+	Attribute Label:  precipitation total
+	Attribute Definition:  precipitation total
+	Storage Type:  
+	Measurement Scale: 
+		Units:  millimeter
+		Number Type:  real
+	Missing Value Code: 
+
+
+	Attribute Name:  snow_raw_cm
+	Attribute Label:  snowfall total
+	Attribute Definition:  snowfall total
+	Storage Type:  
+	Measurement Scale: 
+		Units:  centimeter
+		Number Type:  real
+	Missing Value Code: 
+
+
+	Attribute Name:  snow_depth_cm
+	Attribute Label:  current snow depth
+	Attribute Definition:  current snow depth
+	Storage Type:  
+	Measurement Scale: 
+		Units:  centimeter
+		Number Type:  real
+	Missing Value Code: 
+
+
+	Attribute Name:  data_status
+	Attribute Label:  data status
+	Attribute Definition:  data status
+	Storage Type:  string
+	Measurement Scale: 
+		F= Final
+		P= Preliminary
+	Missing Value Code: 
+
+
